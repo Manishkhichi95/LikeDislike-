@@ -1,0 +1,5 @@
+<button (click)=" like_dislike_button('like')" [ngClass]="liked?'like-button':''">Like |
+  <span>{{likes_counter}}</span></button>
+<button (click)=" like_dislike_button('dislike')" [ngClass]="disliked?'dislike-button':''">Dislike |
+  <span>{{dislikes_counter}}</span></button>
+<i [ngClass]="{'bi-hand-thumbs-up-fill':liked,'bi-hand-thumbs-down-fill':disliked}"></i>

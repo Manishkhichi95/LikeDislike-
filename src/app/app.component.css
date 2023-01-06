@@ -1,0 +1,10 @@
+.like-button,
+.dislike-button {
+    background-color: blue;
+    color: white;
+}
+
+.bi-hand-thumbs-up-fill,
+.bi-hand-thumbs-down-fill {
+    color: blue;
+}
